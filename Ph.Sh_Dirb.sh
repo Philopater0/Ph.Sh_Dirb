@@ -107,7 +107,7 @@ cat results_tmp/*.txt > "final_results_dirb_$target.txt"
 rm -r results_tmp
 
 # Filter useful results using 'anew'
-cat "final_results_dirb_$target.txt" | grep "http://$target" | grep "CODE:200" | anew >> URL
+cat "final_results_dirb_$target.txt" | grep "http://$target" | grep "CODE:[23][0-9][0-9]" | anew >> URL
 
 # Word count for the filtered results
 count=$(wc -l < URL)
