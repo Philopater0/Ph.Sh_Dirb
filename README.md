@@ -20,6 +20,7 @@ anew (optional for result filtering)
 ## 🚀 Usage
 
 ```bash
+cd Ph.Sh_Dirb
 chmod +x Ph.Sh_Dirb.sh
 ./Ph.Sh-Dirb.sh 
 ```
